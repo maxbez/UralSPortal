@@ -1,0 +1,301 @@
+@media (min-width: 320px) and (max-width: 400px) 
+{
+.menu a, #touch-menu {
+    font-size: 12px;
+}
+}
+
+@media screen and (max-width: 768px) /*Для экранов менее 768px*/ 
+{
+.main {
+    width: auto;
+}
+.phone {
+    padding-top: 20px;
+}
+.flex p:nth-child(1) {
+    font-size: 18px;
+}
+.flex p:nth-child(2) {
+    font-size: 22px;
+}
+.right {
+    width: 100%;
+    margin-left: -40px;
+    margin-top: 20px;
+}
+.right p{
+	line-height: 20px;
+}
+.btn {
+	width: 181px;
+    }
+.pro h2 {
+    text-align: center;
+  }
+.adaptiv {
+	min-width: 280px;
+}
+.right__online {
+	text-align: center;
+	margin-left: -30px;
+}
+.rigth__two {
+	text-align: center;
+	margin-left: 44px;
+	color: #1f6f7c;
+}
+.flex__services {
+    border-bottom: none;
+}
+.text__about {
+    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer__nav {
+    height: auto;
+}
+.container__footer {
+    width: auto;
+		margin: 0 auto;
+}
+.ul__footer {
+	display: block;
+	text-align: center;
+	border-bottom: 1px dashed #c0baba;
+	padding-bottom: 15px;
+}
+.wrapper__container {
+    width: auto;
+}
+footer {
+	padding-top: 20px;
+	height: auto;
+}
+
+.block__two {
+	display: none;
+}
+.block__one {
+		padding-left: 10px;
+    max-width: 126px;
+}
+.block__three {
+		width: auto;
+		margin-left: auto;
+  	padding-right: 10px;
+}
+.inline {
+	display: none;
+}
+.find__us {
+    display: none;
+}
+.block__main {
+	padding-bottom: 15px;
+}
+.owl-carousel {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.main__content {
+    background: #fbfbfb;
+  }
+.ul__footer li {
+     margin-right: 0px; 
+}
+.line {
+	  padding-top: 0px; 
+    padding-bottom: 30px;
+}
+
+
+.container {
+    width: 26%;
+    margin: 0;
+		position: initial;
+}
+.ul li:nth-child(3) {
+    width: auto;
+}
+	nav {
+		display: block;
+	}
+  .menu {
+  display: none;
+  }
+  #touch-menu {
+  padding-right: 5px;
+  display: block;
+  }
+  .menu ul {
+    display: block;
+  }
+  .menu li {
+    margin-right: 0px;
+    width: auto; 
+    text-align: center;
+  }
+  .ul li {
+background: linear-gradient(to top, #0198c7, #04afdb);
+  }
+  #touch-menu:focus {
+  background: #FF7AFF;
+  }
+
+.line__cards {
+		display: block;
+    margin: 0 auto;
+}
+.card:nth-child(2) {
+		margin-top: 20px;
+    margin-left: 0px;
+}
+.card:nth-child(3) {
+		margin-top: 20px;
+    margin-left: 0px;
+}
+.text__margin {
+	margin-left: 32px;
+}
+
+
+
+
+
+
+
+}
+@media screen and (max-width: 1279px){
+.menu li {
+    margin: 0 auto;
+     width: auto; 
+}
+nav {
+     display: block;
+}
+
+}
+/*@media screen and (max-width: 1170px){
+
+.container {
+    width: auto;
+}
+nav {
+     display: block;
+}
+
+.menu li {
+    margin: 0 auto;
+     width: auto; 
+}*/
+
+@media screen and (max-width: 1140px){
+  .container {
+    bottom: 55px;
+}
+  .owl-theme .owl-nav {
+    display: none;
+  }
+
+}
+@media screen and (min-width: 1140px){
+  .container {
+    bottom: 0px;
+}
+}
+@media screen and (min-width: 1280px) and (max-width: 1280px){
+ .container {
+    bottom: 4px;
+}
+}
+
+
+
+
+@media(max-width:768px){
+  .wrapper{
+    display:flex;
+    max-width:96%;
+    margin:auto;
+  }
+  .news{
+    display:flex;
+    flex-direction:column;
+    width: 96%;
+    background:#fbfbfb;
+    box-sizing:border-box;
+  }
+  .new:nth-of-type(2){
+    transform:scale(1);
+  }
+  .right.new.adaptiv {
+    width: auto;
+}
+}
+@media(max-width:640px){
+  .wrapper{
+    display:flex;
+    flex-direction:column;
+  }
+  .news{
+    width:60%;
+    margin:10px auto;
+    padding:10px;
+  }
+}
+
+
+@media screen and (min-width:640px) and (max-width:768px){
+.right {
+    margin-left: 0px;
+}
+.online__adap {
+	text-align: center;
+}
+.btn {
+    margin: 0 auto; 
+  }
+  .flex__services {
+    margin: 0 auto;
+}
+}
+@media screen and (min-width:769px) and (max-width:1139px){
+.line__cards {
+     margin-left: 0px; 
+}
+.card {
+    margin: 0 auto;
+		display: block;
+}
+.block__one {
+    padding-left: 10px;
+}
+.block__three {
+		margin-right: 10px;
+    margin-left: auto;
+}
+.owl-carousel {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.text__about {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container__footer {
+    margin: 0 auto;
+}
+}
+
+@media screen and (min-width:1125px) and (max-width:1260px){
+.header {
+	    max-height: 463px;
+}
+}
+@media screen and (min-width:1125px) and (max-width:1140px){
+.header {
+	    max-height: 514px;
+}
+}
